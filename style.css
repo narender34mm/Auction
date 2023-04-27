@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}body{
+    background-image: url(auction.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    
+
+}
+
+.column1{
+    float: left;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+input{
+    border-style: none;
+    background-color: transparent;
+    color: blue;
+    font-size: larger;
+    text-align: center;
+}
+input:focus{
+    border-style: none;
+    color: blue;
+    font-size: larger;
+
+}
+.column1 div{
+    margin: 40px;
+    
+    
+
+}
+.column2{
+    color: palevioletred;
+    font-family: cursive;
+    font-weight: bolder;
+    position: relative;
+    
+    
+   
+}
+
+#result{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 2px 0;
+}
+
+.thumbnail{
+    height: 90px;
+    width: 70px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+.a,.b{
+    
+    width: 450px;
+    text-align: center;
+    padding: 20px;
+   
+}
+.a{
+    background-color: rgb(253, 202, 156);
+}
+.b{
+    background-color: antiquewhite;
+}
+.c{
+    color: red;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(253, 202, 156);
+    border-style: none;
+    width: 150px;
+    border-radius: 20px;
+    margin-left: 140px;
+    font-size: larger;
+    
+    
+}
